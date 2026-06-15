@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "I'm new to this project, what should I do?",
+    "expectedSkill": "welcome-me"
+  },
+  {
+    "prompt": "first day in this repo, help me get oriented",
+    "expectedSkill": "welcome-me"
+  },
+  {
+    "prompt": "Can you welcome me?",
+    "expectedSkill": "welcome-me"
+  },
+  {
+    "prompt": "what's the weather?",
+    "expectedSkill": null
+  },
+  {
+    "prompt": "Create a skill for reviewing TypeScript files",
+    "expectedSkill": "skill-creator"
+  }
+]

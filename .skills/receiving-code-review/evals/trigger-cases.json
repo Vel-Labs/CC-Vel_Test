@@ -1,0 +1,18 @@
+[
+  {
+    "prompt": "Review this external feedback before I apply it",
+    "expectedSkill": "receiving-code-review"
+  },
+  {
+    "prompt": "A reviewer says to add a database for metrics but nothing uses it",
+    "expectedSkill": "receiving-code-review"
+  },
+  {
+    "prompt": "Improve this generated skill based on usage evidence",
+    "expectedSkill": "skill-creator"
+  },
+  {
+    "prompt": "what's the weather?",
+    "expectedSkill": null
+  }
+]

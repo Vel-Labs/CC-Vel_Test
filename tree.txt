@@ -1,0 +1,46 @@
+.
+├── README.md
+├── AGENTS.md
+├── INDEX.md
+├── PROJECT_NOTES.md
+├── package.json
+├── package-lock.json
+├── app/
+│   ├── src/
+│   │   ├── cli.ts
+│   │   ├── agent/
+│   │   ├── chat/
+│   │   ├── context/
+│   │   ├── demo/
+│   │   ├── skills/
+│   │   ├── readiness/
+│   │   ├── trace/
+│   │   ├── ui/
+│   │   └── usage/
+│   └── tests/
+├── .skills/
+│   ├── welcome-me/
+│   ├── skill-creator/
+│   └── receiving-code-review/
+├── .generated-skills/
+│   └── .gitkeep
+├── .skill-usage/
+│   ├── README.md
+│   └── ledger.jsonl
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── IMPLEMENTATION_NOTES.md
+│   ├── PROJECT_BRIEF.md
+│   ├── PUBLISH_CLEANUP.md
+│   ├── ROADMAP.md
+│   ├── SKILL_EVOLUTION.md
+│   ├── TEST_MATRIX.md
+│   └── USAGE_LEDGER.md
+├── fixtures/
+│   ├── review/
+│   ├── upstream/
+│   └── usage/
+├── CHANGELOG.md
+├── DECISIONS.md
+├── tsconfig.json
+└── vitest.config.ts

@@ -1,0 +1,19 @@
+{
+  "skillName": "readable-typescript-review",
+  "summary": "User repeatedly asks for TypeScript readability reviews with a preference for small files, clear boundaries, and meaningful comments only when useful.",
+  "observations": [
+    "The agent mentioned the 350-line guideline but did not explicitly check file length.",
+    "The agent over-recommended comments instead of asking whether names and structure could make comments unnecessary.",
+    "The user values small, testable layers and explicit tradeoffs over broad rewrites."
+  ],
+  "proposedBoundedEdits": [
+    "Add a File Size Check section.",
+    "Add a Comment Quality Check section.",
+    "Add negative examples for over-commenting and premature abstraction."
+  ],
+  "heldOutChecks": [
+    "Should trigger for: review this TypeScript file for readability.",
+    "Should not trigger for: what is the weather?",
+    "Should not trigger for: create a new skill."
+  ]
+}

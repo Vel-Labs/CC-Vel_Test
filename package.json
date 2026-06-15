@@ -1,0 +1,57 @@
+{
+  "name": "vel-labs-vel-code",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A small Claude Sonnet CLI that implements the Agent Skills lifecycle with lazy activation and usage-gated skill evolution.",
+  "files": [
+    ".generated-skills/.gitkeep",
+    ".skill-usage/README.md",
+    ".skill-usage/ledger.jsonl",
+    ".skills",
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "DECISIONS.md",
+    "INDEX.md",
+    "PROJECT_NOTES.md",
+    "README.md",
+    "app",
+    "docs",
+    "fixtures",
+    "tree.txt",
+    "tsconfig.json",
+    "vitest.config.ts"
+  ],
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "start": "tsx app/src/cli.ts",
+    "agent": "tsx app/src/cli.ts",
+    "code": "tsx app/src/cli.ts code",
+    "vel": "tsx app/src/cli.ts vel",
+    "vel:code": "tsx app/src/cli.ts vel code",
+    "vel:demo": "tsx app/src/cli.ts vel code --demo",
+    "demo": "tsx app/src/cli.ts demo",
+    "demo:repair-welcome": "tsx app/src/cli.ts demo repair-welcome",
+    "skills:list": "tsx app/src/cli.ts skills list",
+    "skills:doctor": "tsx app/src/cli.ts skills doctor",
+    "skills:eval": "tsx app/src/cli.ts skills eval",
+    "skills:draft": "tsx app/src/cli.ts skills draft",
+    "skills:evolve": "tsx app/src/cli.ts skills evolve",
+    "skills:install": "tsx app/src/cli.ts skills install",
+    "readiness:check": "tsx app/src/cli.ts readiness check",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.66.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+.generated-skills/*
+!.generated-skills/.gitkeep
+.skill-usage/*
+!.skill-usage/README.md
+!.skill-usage/ledger.jsonl
+.tmp/
+coverage/
+*_audit.md

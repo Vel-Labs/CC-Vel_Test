@@ -1,0 +1,18 @@
+[
+  {
+    "prompt": "Create a skill for reviewing small TypeScript files",
+    "expectedSkill": "skill-creator"
+  },
+  {
+    "prompt": "Repair this malformed SKILL.md file",
+    "expectedSkill": "skill-creator"
+  },
+  {
+    "prompt": "Package this skill into a zip after validation",
+    "expectedSkill": "skill-creator"
+  },
+  {
+    "prompt": "I'm new to this project, what should I do?",
+    "expectedSkill": "welcome-me"
+  }
+]
